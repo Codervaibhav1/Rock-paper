@@ -1,0 +1,52 @@
+body{
+    height: 720px;
+    background: rgb(53,85,85);
+background: radial-gradient(circle, rgba(53,85,85,1) 58%, rgba(0,0,0,1) 100%);
+background-repeat: no-repeat;
+}
+#head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#heading{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+      typing 2s steps(20, end) forwards;
+    font-size: 1.6rem;
+    width: 0;
+    font-size: 40px;
+  background: -webkit-linear-gradient(#eee, pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width:42% }
+  }
+  #card1{
+    background: rgb(28, 28, 28);
+  }
+  #card2{
+    background: rgb(28, 28, 28);
+  }
+  #sizer{
+    width: 50px;
+    margin-left: 25px;
+  }
+  #rock{
+    width: 50px;
+    margin-left: 25px;
+  }
+  #img-one{
+    width: 100px;
+  }
+  #img-two{
+    width: 100px;
+  }
+  #img-three{
+    width: 100px;
+  }
+  
